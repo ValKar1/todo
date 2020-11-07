@@ -1,5 +1,9 @@
 ## Todo tasks platform
 
+### Description
+
+This simple platform allows users to create and manage their own tasks.
+
 ### Installation
 
 **1. Install project dependencies** \
@@ -33,11 +37,11 @@ php artisan migrate
 ### Create demo data for local testing
 
 
-The following command creates seeds in database:
+This command creates seeds in database:
 ```sh
 composer migrate
 ```
-Demo Users:
+The following demo users are available after running the script:
 ```ini
 Email: test1@test.com
 Password: test1
@@ -45,13 +49,14 @@ Password: test1
 Email: test2@test.com
 Password: test2
 ```
+Simple demo tasks are also created for these users.
 
 ### Create demo data for local testing
 
 If you want to configure the local server for Laravel, this link can be helpful: 
 [Web Server Configuration](https://laravel.com/docs/5.8/installation)
 
-### Test
+### Tests
 Run this command in root folder in terminal:
 ```sh
 vendor/bin/phpunit
