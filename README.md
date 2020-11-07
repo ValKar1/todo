@@ -46,8 +46,13 @@ Email: test2@test.com
 Password: test2
 ```
 
-
 ### Create demo data for local testing
 
 If you want to configure the local server for Laravel, this link can be helpful: 
 [Web Server Configuration](https://laravel.com/docs/5.8/installation)
+
+### Test
+Run this command in root folder in terminal:
+```sh
+vendor/bin/phpunit
+```
